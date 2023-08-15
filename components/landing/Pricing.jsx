@@ -46,8 +46,8 @@ const Pricing = () => {
               </li>
 
             </ul></div>
-            <button className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTelegram /></span>
-              Join Now</button>
+            <a target='_blank' rel="noreferrer" href="https://t.me/KirtiAzad" className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTelegram /></span>
+              Join Now</a>
            
             <div><p className="text-base-content-secondary text-sm text-center mt-2">One-time payment.
               <span className="">No subscription</span>

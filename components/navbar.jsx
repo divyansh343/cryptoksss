@@ -97,7 +97,7 @@ const Navbar = ({etheme,handleChange}) => {
               </span>
               {/* {isMobile ? "/" : "Suprr.link/"} */}
 
-              <span className='text-primary pl-1 tracking-wide text-xl'> K Crypto 🔺</span>
+              <span className='text-primary pl-1 tracking-wide text-xl'> K🔺Crypto </span>
               <span className='hidden md:block mx-[2px] text-primary saturate-150 font-medium tracking-wide'>
                 {/* <TextTransition springConfig={presets.gentle}>
                   {"/" + TEXTS[index % TEXTS.length]}
@@ -118,9 +118,9 @@ const Navbar = ({etheme,handleChange}) => {
             ))}
 
           </select> */}
-          <div className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
+          <a target='_blank' rel="noreferrer" href="https://t.me/KirtiAzad" className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
             <span className={`px-1 inline-block text-blue-500  `}><FaTelegram /></span>
-            Join Now</div>
+            Join Now</a>
           {/* <Link href="/register">
             <button className="btn font-normal text-base btn-primary btn-sm normal-case">Sign up</button>
           </Link> */}

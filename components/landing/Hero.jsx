@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
               <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
 
-                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">K Crypto🔺</h1>
+                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">K🔺Crypto</h1>
 
                 <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">
                   <ReactTypingEffect
@@ -108,12 +108,12 @@ const Hero = () => {
               </div>
 
               <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <Link href="/register">
+                <a target='_blank' rel="noreferrer" href="https://tg.me/@KirtiAzad">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
                     <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
                     Join Telegram
                   </button>
-                </Link>
+                </a>
 
 
               </div>
