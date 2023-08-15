@@ -97,7 +97,7 @@ const Navbar = ({etheme,handleChange}) => {
               </span>
               {/* {isMobile ? "/" : "Suprr.link/"} */}
 
-              <span className='text-primary pl-1 tracking-wide text-xl'> K🔺Crypto </span>
+              <span className='text-primary pl-1 tracking-wide text-xl'> CryptoShillz </span>
               <span className='hidden md:block mx-[2px] text-primary saturate-150 font-medium tracking-wide'>
                 {/* <TextTransition springConfig={presets.gentle}>
                   {"/" + TEXTS[index % TEXTS.length]}
@@ -108,7 +108,7 @@ const Navbar = ({etheme,handleChange}) => {
           </Link>
         </div>
         <div className="navbar-end">
-          {/* <select  value={etheme} onChange={handleChange}
+          <select  value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
             <option disabled selected>Choose Theme?</option>
             {options.map((option) => (
@@ -117,8 +117,8 @@ const Navbar = ({etheme,handleChange}) => {
               </>
             ))}
 
-          </select> */}
-          <a target='_blank' rel="noreferrer" href="https://t.me/KirtiAzad" className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
+          </select>
+          <a target='_blank' rel="noreferrer" href="https://t.me/CryptoShillz09" className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
             <span className={`px-1 inline-block text-blue-500  `}><FaTelegram /></span>
             Join Now</a>
           {/* <Link href="/register">

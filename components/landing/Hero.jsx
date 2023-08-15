@@ -15,6 +15,9 @@ import nineImg from '../../assets/images/portraits/nine.jpeg'
 import { useState } from 'react'
 import { FiZap } from 'react-icons/fi';
 import { FaTelegram } from 'react-icons/fa'
+import lleft from '../../assets/images/leaves-left.png'
+import lright from '../../assets/images/leaves-right.png'
+
 
 const Hero = () => {
   return (
@@ -28,7 +31,7 @@ const Hero = () => {
             <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
               <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
 
-                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">K🔺Crypto</h1>
+                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">CryptoShillz</h1>
 
                 <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">
                   <ReactTypingEffect
@@ -37,9 +40,8 @@ const Hero = () => {
                     eraseSpeed={30}
                     eraseDelay={1800}
                     text={[
-                      `Analysis`,
+                      `Pumps`,
                       `Siganls`,
-                      `Updates`,
                       `Airdrops`,
                     ]}
                   />
@@ -48,7 +50,7 @@ const Hero = () => {
                 {/* <h1 className="text-3xl md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">🔺VIP Signals🔻</h1> */}
 
                 <div className="mt-5 lg:mt-12 grid place-items-center lg:place-items-start">
-                  <div className="avatar-group -space-x-3 ">
+                  {/* <div className="avatar-group -space-x-3 ">
                     <div className="avatar">
                       <div className="w-18">
                         <Image height={40} width={40} alt="" src={twoImg} />
@@ -83,32 +85,38 @@ const Hero = () => {
                       </div>
                     </div>
 
-                  </div>
-                  <div className='grid justify-center'>
-                    <div className="rating mt-4 mb-2 lg:mt-2">
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                      <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                  </div> */}
+
+                  <div className="flex justify-center items-center gap-2 md:gap-4 md:text-lg" aria-label="Rated 4.8 stars out of 5 stars"><div className="w-14 md:w-20 opacity-30 invert dark:invert-0"><span ><span ></span>
+
+                    {/* <Image alt="Website rating decoration leave left" src={lleft} sizes="100vw" /> */}
+                  </span>
+
+                  </div><div className="space-y-2"><div className="flex gap-1 justify-start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 md:w-8 md:h-8 fill-yellow-500"><path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 md:w-8 md:h-8 fill-yellow-500"><path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 md:w-8 md:h-8 fill-yellow-500"><path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 md:w-8 md:h-8 fill-yellow-500"><path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 md:w-8 md:h-8 fill-yellow-500"><path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd"></path></svg></div><p className="">
+                    {/* <strong className="font-bold">4.8/5</strong> on <a className="link hover:link-primary underline-offset-2 decoration-1 md:decoration-2" href="https://gamifylist.com/app/habits-garden" target="_blank" rel="noreferrer">Gamify List</a> */}
+                    </p>
+                    <p className=""><span className="font-bold">7,000+</span>
+
+                    happy users</p></div><div className="w-14 md:w-20 opacity-30 invert dark:invert-0"><span ><span ></span>
+
+                      {/* <Image alt="Website rating decoration leave right" src={lright} /> */}
+                    </span>
+
+
                     </div>
                   </div>
-                  {/* <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md font-pj">
-                    More than
-                    <span className="font-thin px-1 text-primary">3200 Already joined </span>
-                  </p> */}
-               
+
                 </div>
                 <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                    We are the #1 provider of Crypto Signals. 
-                  </p>
-                  <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
+                  We are the #1 provider of Crypto Signals.
+                </p>
+                <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
                   Trusted by over 1,000+ traders.
-                  </p>
+                </p>
               </div>
 
               <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <a  target='_blank' rel="noreferrer" href="https://t.me/KirtiAzad">
+                <a target='_blank' rel="noreferrer" href="https://t.me/CryptoShillz09">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
                     <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
                     Join Telegram
@@ -131,7 +139,7 @@ const Hero = () => {
             </div> */}
             </div>
             <div className="xl:col-span-3 shadow-lg">
-              <Image height={800} width={1200} className="mx-auto drop-shadow-lg lg:px-20 border-sky-200 border-2  rounded-xl" src={heroImg} alt="" />
+              <Image height={800} width={1200} className="mx-auto shadow lg:px-20 border-sky-200 border-2  rounded-xl" src={heroImg} alt="" />
             </div>
           </div>
         </div>

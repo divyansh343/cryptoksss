@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import fourImg from '../../assets/images/portraits/four.jpeg'
+import fourImg from '../../assets/images/portraits/seven.jpeg'
 import sixImg from '../../assets/images/portraits/six.jpeg'
 import { BsFillRecordFill } from 'react-icons/bs'
 
@@ -67,7 +67,7 @@ const Section = () => {
               <div className="chat-header">
                 david
               </div>
-              <div className="chat-bubble chat-bubble-primary ">I love you!</div>
+              <div className="chat-bubble chat-bubble-primary ">Damn</div>
               <div className="chat-footer opacity-50">
                 Seen at 12:50
               </div>
@@ -97,11 +97,11 @@ const Section = () => {
       <section className="bg-base-100 p-6 py-16 md:py-32">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
 
-          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-square w-full sm:w-[26rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
-            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691598101/krypto/XNVZF6VyQkWCvuUi_online-video-cutter.com_cj2lzt.mp4" type="video/mp4" />
+          <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-square w-full sm:w-[30rem] border-2 md:border-4 border-base-content/20" width="500" height="500">
+            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1691598222/krypto/3zdZIBvyf4EIxDGk_online-video-cutter.com_hryjeh.mp4" type="video/mp4" />
           </video>
 
-          <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Stay Ahead with Cutting-Edge Market Insights</h2>
+          <div className="space-y-6 md:space-y-8 max-w-lg"><h2 className="text-3xl md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Bang the Upcoming Bull Market with us</h2>
             <p className="text-base-content-secondary">Our team of seasoned analysts keeps a vigilant eye on the ever-changing crypto landscape,</p>
             <p className="text-base-content-secondary"> Identifying emerging trends, market sentiment shifts, and potential opportunities before they become widely known. Through in-depth technical and fundamental analysis.</p>
 

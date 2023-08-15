@@ -29,12 +29,12 @@ const Testimonials = () => {
           </div>
 
 
-          <div className="senja-embed" data-id="1b54d523-2587-4de4-990b-de1c29980fe3" data-lazyload="true"></div>
+          <div className="senja-embed" data-id="9fe6a41d-dff0-4bf8-91ee-41af65574ebb" data-lazyload="true"></div>
 
 
 
         </div>
-        <a className="btn btn-block btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/Kirti_Azad_'> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTwitter /></span>
+        <a className="btn btn-block btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/CryptoShillz06'> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTwitter /></span>
               Follow me on Twitter</a>
       </section>
     </div>

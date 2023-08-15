@@ -8,6 +8,7 @@ import Digits from '../components/landing/Digits'
 import Section from '../components/landing/Section'
 import Testimonials from '../components/landing/Testimonials'
 import Sheet from '../components/landing/Sheet'
+import Flex from '../components/landing/Flex'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero/>
       <Section/>
       <Sheet />
+      <Flex />
       <Digits/>
       <Pricing />
       <Testimonials />

@@ -10,7 +10,7 @@ const Footer = () => {
 
                     <div>
                         {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
-                        <p className='text-2xl font-bold'>Crypto🔺k</p>
+                        <p className='text-2xl font-bold'>Crypto Shillz</p>
                         <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
                         <p className='text-md'>@2023</p>
                     </div>
