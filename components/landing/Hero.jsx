@@ -108,7 +108,7 @@ const Hero = () => {
               </div>
 
               <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <a target='_blank' rel="noreferrer" href="https://tg.me/KirtiAzad">
+                <a  target='_blank' rel="noreferrer" href="https://t.me/KirtiAzad">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
                     <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
                     Join Telegram
