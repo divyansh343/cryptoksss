@@ -17,7 +17,7 @@ const Payment = () => {
 
         </div>
 
-        <div className="stat-title lg:font-bold">Wallet Address</div>
+        <div className="stat-title lg:font-bold">Wallet Address (TRC 20)</div>
         <div className="stat-title my-2 text-primary text-xs lg:text-xl font-normal">{address}</div>
         <div className="stat-desc  ">Pay and send Screenshot to telegram   <span className={`px-1 inline-block text-blue-500  `}><FaTelegram /></span></div>
       </div>
