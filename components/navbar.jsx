@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaTelegram } from 'react-icons/fa';
+// import fourImg from '../assets/images/csz.jpg'
 
 const Navbar = ({etheme,handleChange}) => {
   
@@ -91,13 +92,12 @@ const Navbar = ({etheme,handleChange}) => {
         <div className="flex-1">
           <Link href="/">
             <div className="btn btn-ghost normal-case text-lg lg:text-lg font-semibold tracking-wide">
-              <span className='mx-1'>
-                {/* Crypto */}
-                {/* <Image src={power} height={25} width={25} alt="" /> */}
-              </span>
+              {/* <span className='mx-1'>
+                <Image src={fourImg} height={25} width={25} alt="" />
+              </span> */}
               {/* {isMobile ? "/" : "Suprr.link/"} */}
 
-              <span className='text-primary pl-1 tracking-wide text-xl'> CryptoShillz </span>
+              <span className='text-primary pl-1 tracking-wide text-lg'> CryptoShillz </span>
               <span className='hidden md:block mx-[2px] text-primary saturate-150 font-medium tracking-wide'>
                 {/* <TextTransition springConfig={presets.gentle}>
                   {"/" + TEXTS[index % TEXTS.length]}
@@ -108,7 +108,7 @@ const Navbar = ({etheme,handleChange}) => {
           </Link>
         </div>
         <div className="navbar-end">
-          <select  value={etheme} onChange={handleChange}
+          {/* <select  value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
             <option disabled selected>Choose Theme?</option>
             {options.map((option) => (
@@ -117,7 +117,7 @@ const Navbar = ({etheme,handleChange}) => {
               </>
             ))}
 
-          </select>
+          </select> */}
           <a target='_blank' rel="noreferrer" href="https://t.me/CryptoShillz09" className="btn font-normal text-base btn-primary btn-sm normal-case mx-1">
             <span className={`px-1 inline-block text-blue-500  `}><FaTelegram /></span>
             Join Now</a>

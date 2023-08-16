@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import fourImg from '../../assets/images/portraits/seven.jpeg'
+import fourImg from '../../assets/images/csz.jpg'
 import sixImg from '../../assets/images/portraits/six.jpeg'
 import { BsFillRecordFill } from 'react-icons/bs'
 
