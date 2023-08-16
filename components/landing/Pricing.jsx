@@ -18,7 +18,7 @@ const Pricing = () => {
 
             <span className="text-base-content-secondary">USDT</span>
 
-            <span className="badge text-accent-content whitespace-nowrap animate-text-shimmer border-0 bg-gradient-to-r from-orange-400-400 via-primary to-orange-600 bg-[length:400%_100%]">Monthly</span>
+            <span className="badge  whitespace-nowrap animate-text-shimmer border-0 bg-gradient-to-r from-orange-400-400 via-primary to-orange-600 bg-[length:400%_100%]">Monthly</span>
           </div>
 
             <div><ul className="space-y-3 text-base-content-secondary"><li className="flex items-center gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 inline text-primary shrink-0"><path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd"></path></svg>Premium Signals</li>

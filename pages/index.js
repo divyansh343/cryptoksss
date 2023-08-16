@@ -8,6 +8,7 @@ import Digits from '../components/landing/Digits'
 import Section from '../components/landing/Section'
 import Testimonials from '../components/landing/Testimonials'
 import Sheet from '../components/landing/Sheet'
+import Payment from '../components/landing/Payment'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Sheet />
       <Digits/>
       <Pricing />
+      <Payment />
       <Testimonials />
     </div>
   )

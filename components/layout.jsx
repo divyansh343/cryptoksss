@@ -10,10 +10,7 @@ const Layout = ({ children }) => {
     settheme(e.target.value);
   }
   return (
-    <div className="bg-gradient-to-r
-    from-base-300
-    via-blue-900
-    to-accent`}" data-theme={theme}>
+    <div className="`}" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
       
       <div>
