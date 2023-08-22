@@ -14,7 +14,7 @@ import eightImg from '../../assets/images/portraits/eight.jpeg'
 import nineImg from '../../assets/images/portraits/nine.jpeg'
 import { useState } from 'react'
 import { FiZap } from 'react-icons/fi';
-import { FaTelegram } from 'react-icons/fa'
+import { FaTelegram, FaTwitter } from 'react-icons/fa'
 import lleft from '../../assets/images/leaves-left.png'
 import lright from '../../assets/images/leaves-right.png'
 
@@ -31,18 +31,20 @@ const Hero = () => {
             <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
               <div className="max-w-sm mx-auto sm:max-w-md md:max-w-full">
 
-                <h1 className="text-4xl mt-3 lg:mt-5 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">CryptoABZ</h1>
+                <h1 className="text-4xl mt-3 lg:mt-5 md:text-3xl tracking-wide font-black leading-tight md:leading-tight lg:text-5xl lg:leading-tight ">Millionaire Club</h1>
 
-                <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-6xl lg:leading-tight ">
+                <h1 className="text-3xl my-4 md:text-5xl tracking-wide font-black leading-tight md:leading-tight lg:text-4xl lg:leading-tight ">
+                  awaiting.
                   <ReactTypingEffect
+                  className='mx-2'
                     typingDelay={400}
                     speed={60}
                     eraseSpeed={30}
                     eraseDelay={1800}
                     text={[
-                      `Pumps`,
-                      `Siganls`,
-                      `Airdrops`,
+                      `Traders`,
+                      `Alphas`,
+                      `Millionaires`,
                     ]}
                   />
                 </h1>
@@ -106,17 +108,23 @@ const Hero = () => {
 
                 </div>
                 <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                  We are the #1 provider of Crypto Signals.
+                  We are going to bang the upcoming bull market.
                 </p>
                 <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
                   Trusted by over 20,000+ traders.
                 </p>
               </div>
 
-              <div className="mt-5 sm:flex sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <a target='_blank' rel="noreferrer" href="https://t.me/CryptoShillz09">
+              <div className="mt-5 grid-row sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
+                <a target='_blank' rel="noreferrer" href="https://t.me/+cZbgBo7jpLVjZjY0">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
-                    <span className={`px-1 inline-block text-blue-500 `}><FaTelegram /></span>
+                    <span className={`px-1 inline-block text-black`}><FaTwitter /></span>
+                    Join Twitter
+                  </button>
+                </a>
+                <a target='_blank' rel="noreferrer" href="https://t.me/+cZbgBo7jpLVjZjY0">
+                  <button className="btn mx-1 normal-case btn-primary lg:btn-base mt-2 lg:mt-0    text-base lg:text-lg  font-medium">
+                    <span className={`px-1 inline-block text-black`}><FaTelegram /></span>
                     Join Telegram
                   </button>
                 </a>

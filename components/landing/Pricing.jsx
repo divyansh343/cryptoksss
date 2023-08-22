@@ -19,8 +19,8 @@ const Pricing = () => {
           </li>
 
         </ul></div>
-        <button className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTelegram /></span>
-          Join Now</button>
+        <a target='_blank' rel="noreferrer" href="https://t.me/+cZbgBo7jpLVjZjY0"  className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span>
+          Join Now</a>
 
         {/* <a className="btn btn-block btn-primary btn-outline" href="/#signup">Get my Indie Page</a> */}
 
@@ -53,7 +53,7 @@ const Pricing = () => {
           </li>
 
         </ul></div>
-        {/* <button className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTelegram /></span>
+        {/* <button className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span>
           Join Now</button> */}
 
         <div>
