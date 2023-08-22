@@ -90,22 +90,9 @@ const Navbar = ({etheme,handleChange}) => {
     <>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link href="/">
             <div className="btn btn-ghost normal-case text-lg lg:text-lg font-semibold tracking-wide">
-              {/* <span className='mx-1'>
-                <Image src={fourImg} height={25} width={25} alt="" />
-              </span> */}
-              {/* {isMobile ? "/" : "Suprr.link/"} */}
-
-              <span className='text-primary pl-1 tracking-wide text-lg'> CryptoShillz </span>
-              <span className='hidden md:block mx-[2px] text-primary saturate-150 font-medium tracking-wide'>
-                {/* <TextTransition springConfig={presets.gentle}>
-                  {"/" + TEXTS[index % TEXTS.length]}
-                </TextTransition> */}
-              </span>
-
+                <svg className="h-6 w-6 md:h-8 md:w-8" width="32" height="32" viewBox="0 0 415 415" xmlns="http://www.w3.org/2000/svg"><rect x="82.5" y="290" width="250" height="125" rx="62.5" fill="#1AD1A5"></rect><circle cx="207.5" cy="135" r="130" fill="black" fillOpacity=".3"></circle><circle cx="207.5" cy="135" r="125" fill="white"></circle><circle cx="207.5" cy="135" r="56" fill="#FF9903"></circle></svg> <div className="font-title inline-flex text-lg md:text-2xl"><span className="normal-case">Crypto</span> <span className="normal-case text-[#1AD1A5]">Abz</span></div>
             </div>
-          </Link>
         </div>
         <div className="navbar-end">
           {/* <select  value={etheme} onChange={handleChange}

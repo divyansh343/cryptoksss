@@ -10,7 +10,7 @@ const Footer = () => {
 
                     <div>
                         {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
-                        <p className='text-2xl font-bold'>Crypto Shillz</p>
+                        <p className='text-2xl font-bold'>Crypto Abubakar</p>
                         <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
                         <p className='text-md'>@2023</p>
                     </div>
@@ -54,12 +54,9 @@ const Footer = () => {
 
                         Testimonials showcased on this platform may not accurately represent the experiences of all clients or customers. They should not be taken as a guarantee of future performance or accomplishments.
                     </p>
-
-
-
                 </div>
                 <div className='grid justify-end'>
-                    <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a>
+                    {/* <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a> */}
                 </div>
             </div>
         </>
