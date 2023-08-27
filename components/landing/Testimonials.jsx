@@ -23,19 +23,18 @@ const Testimonials = () => {
 
 
           <div className="space-y-6 md:space-y-8 max-w-sm  grid"><h2 className="text-2xl md:text-5xl tracking- font-black leading-tight md:leading-tight"> <span className='inline-block'><IoPeopleSharp /></span> Join Our Community of Thriving Traders
-</h2>
+          </h2>
 
-          {/* <p className="text-base-content-secondary">Track traffic and clicks on your startups. Find out what your followers enjoy the most, rinse and repeat.</p><p className="text-base-content-secondary">Twitter is unstable... Collect your best fans emails. Truly own your audience.</p> */}
           </div>
 
 
-          <div className="senja-embed" data-id="9fe6a41d-dff0-4bf8-91ee-41af65574ebb" data-lazyload="true"></div>
+          <div className="senja-embed" data-id="9fe6a41d-dff0-4bf8-91ee-41af65574ebb" data-lazyload="false"></div>
 
 
 
         </div>
         <a className="btn btn-block btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/CryptoShillz06'> <span className={`px-1 inline-block text-primarytext-xl `}><FaTwitter /></span>
-              Follow me on Twitter</a>
+          Follow me on Twitter</a>
       </section>
     </div>
   )

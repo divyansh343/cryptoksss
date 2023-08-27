@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import Layout from '../components/layout'
 import '../styles/globals.css'
+import { Toaster } from 'react-hot-toast'
 
 function MyApp({ Component, pageProps }) {
   return  <>
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }) {
   />
   <Layout>
     <Component {...pageProps} />
+    <Toaster position='bottom-right' />
   </Layout>
   </>
 }

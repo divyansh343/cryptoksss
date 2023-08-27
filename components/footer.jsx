@@ -3,64 +3,74 @@ import React from 'react'
 // import { HiTrendingUp } from 'react-icons/hi'
 // import logoImg from '../../assets/images/power.png'
 const Footer = () => {
-    return (
-        <>
-            <div className='bg-base-200' >
-                <footer className="footer p-10 bg-base-200 border-t-2 text-base-content">
-
-                    <div>
-                        {/* <Image src={logoImg} height={50} width={50} alt="" /> */}
-                        <p className='text-2xl font-bold'>Crypto Abubakar</p>
-                        <p className='text-md'>Top Notch Crypto Analysis & Signals.</p>
-                        <p className='text-md'>@2023</p>
-                    </div>
-                    <div>
-                        <span className="footer-title">Services</span>
-                        <a className="link link-hover">Branding</a>
-                        <a className="link link-hover">Design</a>
-                        <a className="link link-hover">Marketing</a>
-                        <a className="link link-hover">Advertisement</a>
-                    </div>
-                    <div>
-                        <span className="footer-title">Company</span>
-                        <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
-                        <a className="link link-hover">Jobs</a>
-                        <a className="link link-hover">Press kit</a>
-                    </div>
-                    <div>
-                        <div className='grid place-items-center  '>
-                            <div className="stats shadow bg-white text-secondary drop-shadow-lg">
-                                <div className="stat">
-                                    <div className="stat-title text-secondary">🪙BTC target</div>
-                                    <div className="stat-value">$32,000<span className='inline-block text-md   mr-1'>
-                                        {/* <HiTrendingUp /> */}
-                                    </span></div>
-                                    <div className="stat-desc text-secondary">ETH, LTC, DOGE...</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </footer>
-                <div className='px-5 lg-px-20 bg-base-200 pb-20'>
-                    <p className="pt-6 text-sm  font-thin text-primary-focus lg:mt-4 lg:ml-4 font-pj">
-                        Trading is risky & most traders lose money. This site & the products & services we offer informational & educational purposes only. All content is to be considered hypothetical, selected after the fact, in order to demonstrate our product and should not be construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Trading in USD@-M Futures is subjected to risk.
-                    </p>
-
-                    <p className="pt-6 text-sm text-primary-focus lg:mt-0 lg:ml-4 font-pj">
-                        Engaging in USD@-M Futures trading presents its own set of risks, and it&apos;s vital to recognize this aspect.
-
-                        Testimonials showcased on this platform may not accurately represent the experiences of all clients or customers. They should not be taken as a guarantee of future performance or accomplishments.
-                    </p>
-                </div>
-                <div className='grid justify-end'>
-                    {/* <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a> */}
-                </div>
+  return (
+    <>
+      <div  data-theme="forest" className='p-6 bg-black'>
+        <div className="px-[2px] md:px-[36px] xl:px-0 mt-[70px]">
+          
+          {/* <div className="w-full bg-gray-200 h-[1px] mb-[52px]"></div> */}
+          <div className=" grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-4 xl:gap-[98px]">
+            
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Contact</h5>
+              <p className="text-text mb-5">Indore, MP
+              </p>
+              <a href="tel:+918821934797" className="text-text my-2 underline cursor-pointer">+91-8821934797
+              </a>
+              <p className="text-text cursor-pointer ">contact@chareterdmedia.com
+              </p>
             </div>
-        </>
-    )
+            <div className='invisible'>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Our Services</h5>
+              <ul className=''>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Brand Collabration</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencer Marketing</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Regional Influencer Marketing</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Celebrity Marketing</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Niche Marketing</a></li>
+              </ul>
+            </div>
+            {/* <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Discover</h5>
+              <ul>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Our Blog</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Plans &amp; Pricing</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Knowledge Base</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Cookie Policy</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Office Center</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">News &amp; Events</a></li>
+              </ul>
+            </div> */}
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">By Cities</h5>
+              <ul>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencer Agency In Delhi</a></li>
+              
+              </ul>
+            </div>
+            <div>
+              <h5 className="text-heading-5  font-bold text-secondary mb-5 text-sm">Useful links</h5>
+              <ul>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Collabrations</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Influencers</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Events</a></li>
+                {/* <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Reviews</a></li>
+                <li className="mb-2 text-sm lg:text-base "><a className="transition-all duration-200 hover:text-secondary hover:pl-[3px]" href="#">Stories</a></li> */}
+              </ul>
+            </div>
+          </div>
+          <div className="w-full bg-gray-200 h-[1px] mb-[20px]"></div>
+          <div className="text-gray-400 flex items-center justify-between">
+              <p className="text-sm ">@MillionairesClub 2023
+              </p>
+       
+              {/* <a href='https://divyanshpal.netlify.app' target='_blank' rel='noreferrer' className=' text-sm hover:shadow-lg hover:underline cursor-pointer'>-by<span className='text-primary ml-1 '>Divyansh</span></a> */}
+          </div>
+        </div>
+      </div>
+
+    </>
+  )
 }
 
 export default Footer

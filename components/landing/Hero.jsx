@@ -101,16 +101,14 @@ const Hero = () => {
 
                       {/* <Image alt="Website rating decoration leave right" src={lright} /> */}
                     </span>
-
-
                     </div>
                   </div>
 
                 </div>
                 <p className="pt-8 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
-                  We are going to bang the upcoming bull market.
+                The Goal for this Club from 2023 till Next Bull Market will be to get the Financial freedom
                 </p>
-                <p className="pt-1 text-sm text-primary-focus lg:mt-0 lg:ml-4 text-md  font-pj">
+                <p className="pt-1 mt-2 text-sm text-primary-focus  lg:ml-4 text-md  font-pj">
                   Trusted by over 20,000+ traders.
                 </p>
               </div>
