@@ -33,7 +33,7 @@ const Testimonials = () => {
 
 
         </div>
-        <a className="btn btn-block btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/CryptoShillz06'> <span className={`px-1 inline-block text-primarytext-xl `}><FaTwitter /></span>
+        <a className="btn btn-block btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/Abu__Crypto'> <span className={`px-1 inline-block text-primarytext-xl `}><FaTwitter /></span>
           Follow me on Twitter</a>
       </section>
     </div>

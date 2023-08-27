@@ -7,8 +7,8 @@ const Alphas = () => {
         <p className="text-base-content-secondary pb-5">Train you with market movements</p>
       </div>
 
-      <div className='grid justify-center'>
-        <div className="space-y-2 md:space-y-1 text-lg max-w-lg">
+      <div className='grid justify-center '>
+        <div className="space-y-2 md:space-y-1 text-lg max-w-lg mx-8">
           <p className='  pt-6 text-primary '>
 
             • When is the right time to buy any setup in the market

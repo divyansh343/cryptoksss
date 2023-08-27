@@ -19,7 +19,8 @@ const Pricing = () => {
           </li>
 
         </ul></div>
-        <a href='#payment' className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span>
+        <a href='#payment' className="btn btn-block btn-primary "> 
+        {/* <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span> */}
           Join Now</a>
 
         {/* <a className="btn btn-block btn-primary btn-outline" href="/#signup">Get my Indie Page</a> */}
@@ -48,15 +49,10 @@ const Pricing = () => {
           </li>
 
         </ul></div>
-        <a href='#payment' className="btn btn-block btn-primary "> <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span>
+        <a href='https://twitter.com/Abu__Crypto' className="btn btn-block btn-primary "> 
+        {/* <span className={`px-1 inline-block text-primarytext-xl `}><FaTelegram /></span> */}
           Join Now</a>
-
-        <div>
-
-          {/* <a className="btn btn-block btn-primary" href="/#signup"> */}
-
-          {/* Get my Indie Page</a> */}
-          <p className="text-base-content-secondary text-sm text-center mt-2">One-time payment. <span className="">No subscription</span></p></div></div><div className="absolute inset-2 blur-lg bg-accent/75 -z-10 group-hover:inset-1 group-hover:bg-accent/100 duration-200 animate-tilt"></div></div></div></section>
+          </div><div className="absolute inset-2 blur-lg bg-accent/75 -z-10 group-hover:inset-1 group-hover:bg-accent/100 duration-200 animate-tilt"></div></div></div></section>
     </div>
 
   )

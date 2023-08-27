@@ -10,7 +10,7 @@ const Sheet = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
 
           <video autoPlay muted loop playsinline="" controls="" className="rounded-3xl aspect-auto w-full sm:w-[36rem] border-2 md:border-4 border-base-content/20" width="800" height="500">
-            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1693026640/bars_online-video-cutter.com_qgsndc.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/the-social-charts/video/upload/v1693121655/scalp_1_skjvoe.mp4" type="video/mp4" />
           </video>
 
 

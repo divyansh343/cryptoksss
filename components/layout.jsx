@@ -4,18 +4,18 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("synthwave")
+  const [etheme, settheme] = useState("fantasy")
 
-  const handleChange = (e) => {
-    settheme(e.target.value);
-  }
+  // const handleChange = (e) => {
+  //   settheme(e.target.value);
+  // }
   return (
-    <div className="bg-base-100`}" data-theme={theme}>
-      <Navbar ethmem={theme} handleChange={handleChange} />
+    <div className="bg-base-100" data-theme={etheme}>
+      <Navbar etheme={etheme}  settheme={settheme}  />
       <div>
         {children}
       </div>
-      <Footer />
+      <Footer etheme={etheme}  settheme={settheme} />
       {/* <Label/> */}
     </div>
   )

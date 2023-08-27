@@ -114,15 +114,15 @@ const Hero = () => {
               </div>
 
               <div className="mt-5 grid-row sm:items-center sm:justify-center lg:justify-start sm:space-x-5 lg:mt-6">
-                <a target='_blank' rel="noreferrer" href="https://t.me/+cZbgBo7jpLVjZjY0">
+                <a target='_blank' rel="noreferrer" href="https://twitter.com/Abu__Crypto">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base    text-base lg:text-lg  font-medium">
-                    <span className={`px-1 inline-block text-black`}><FaTwitter /></span>
+                    <span className={`px-1 inline-block text-base-100`}><FaTwitter /></span>
                     Join Twitter
                   </button>
                 </a>
                 <a target='_blank' rel="noreferrer" href="https://t.me/+cZbgBo7jpLVjZjY0">
                   <button className="btn mx-1 normal-case btn-primary lg:btn-base mt-2 lg:mt-0    text-base lg:text-lg  font-medium">
-                    <span className={`px-1 inline-block text-black`}><FaTelegram /></span>
+                    <span className={`px-1 inline-block text-base-100`}><FaTelegram /></span>
                     Join Telegram
                   </button>
                 </a>
