@@ -20,7 +20,7 @@ export default function Home() {
       <Sheet />
       <Section/>
       <Flex />
-      <Digits/>
+      {/* <Digits/> */}
       <Pricing />
       <Payment />
       <Testimonials />
