@@ -59,7 +59,7 @@ const Footer = () => {
 
                 </div>
                 <div className='grid justify-end'>
-                    <a href="https://suprr.link/divyansh" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">🥑Designed by - Divyansh</a>
+                    <a href="https://divyanshpal.netlify.app" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">⚡Managed by - Divyansh</a>
                 </div>
             </div>
         </>
