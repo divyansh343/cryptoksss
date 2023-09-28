@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import sheet from '../../assets/images/sheet.jpeg'
+import sheet from '../../assets/images/sheet.jpg'
 import { FaChartLine } from 'react-icons/fa'
 
 const Sheet = () => {

@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("lofi")
+  const [theme, settheme] = useState("luxury")
 
   const handleChange = (e) => {
     settheme(e.target.value);
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   return (
     <div className="`}" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
-      
+
       <div>
         {children}
       </div>
