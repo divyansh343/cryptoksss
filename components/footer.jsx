@@ -4,8 +4,8 @@ import React from 'react'
 // import logoImg from '../../assets/images/power.png'
 const Footer = () => {
     return (
-        <>
-            <div className='bg-base-200' >
+        <div className='grid justify-center'>
+            <div className='bg-base-200 max-w-7xl ' >
                 <footer className="footer p-10 bg-base-200 border-t-2 text-base-content">
 
                     <div>
@@ -54,15 +54,12 @@ const Footer = () => {
 
                         Testimonials showcased on this platform may not accurately represent the experiences of all clients or customers. They should not be taken as a guarantee of future performance or accomplishments.
                     </p>
-
-
-
                 </div>
                 <div className='grid justify-end'>
-                    <a href="https://divyanshpal.netlify.app" target="_blank" rel="noreferrer" className="link link-hover text-xs p-5">⚡Managed by - Divyansh</a>
+                    <a href="https://brandstart.live" target="_blank" rel="noreferrer" className="link link-hover text-md hover:border-b p-5">Powered by - Brandstart</a>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
