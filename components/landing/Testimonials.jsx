@@ -5,41 +5,44 @@ import { IoPeopleSharp } from 'react-icons/io5'
 
 const Testimonials = () => {
   return (
-    <div className='border-t-2 overflow-hidden'>
-      <section className="bg-base-100  p-4 py-16 md:py-32">
+    <div className='grid justify-center'>
 
-        <div className="text-center mb-20 space-y-4 md:space-y-6">
-          {/* <h3 className="text-3xl  md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Fuckin Proof of Work 🏗️</h3> */}
-          <p className="flex items-center gap-2 justify-center text-base-content-secondary">
-            <span className="relative inline-flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-accent"></span>
-            </span>Updated Weekly, sorted by newest 📈
-          </p>
-        </div>
+      <div className='border-t-2 max-w-7xl  overflow-hidden'>
+        <section className="bg-base-100  p-4 py-16 md:py-32">
 
-
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
-
-
-          <div className="space-y-6 md:space-y-8 max-w-sm  grid"><h2 className="text-2xl md:text-5xl tracking- font-black leading-tight md:leading-tight"> <span className='inline-block'><IoPeopleSharp /></span> Join Our Community of Thriving Traders
-</h2>
-
-          {/* <p className="text-base-content-secondary">Track traffic and clicks on your startups. Find out what your followers enjoy the most, rinse and repeat.</p><p className="text-base-content-secondary">Twitter is unstable... Collect your best fans emails. Truly own your audience.</p> */}
+          <div className="text-center mb-20 space-y-4 md:space-y-6">
+            {/* <h3 className="text-3xl  md:text-5xl tracking-tight font-black leading-tight md:leading-tight">Fuckin Proof of Work 🏗️</h3> */}
+            <p className="flex items-center gap-2 justify-center text-base-content-secondary">
+              <span className="relative inline-flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-accent"></span>
+              </span>Updated Weekly, sorted by newest 📈
+            </p>
           </div>
 
 
-          <div className="senja-embed" data-id="1b54d523-2587-4de4-990b-de1c29980fe3" data-lazyload="true"></div>
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16">
+
+
+            <div className="space-y-6 md:space-y-8 max-w-sm  grid"><h2 className="text-2xl md:text-5xl tracking- font-black leading-tight md:leading-tight"> <span className='inline-block'><IoPeopleSharp /></span> Join Our Community of Thriving Traders
+            </h2>
+
+              {/* <p className="text-base-content-secondary">Track traffic and clicks on your startups. Find out what your followers enjoy the most, rinse and repeat.</p><p className="text-base-content-secondary">Twitter is unstable... Collect your best fans emails. Truly own your audience.</p> */}
+            </div>
+
+
+            <div className="senja-embed" data-id="1b54d523-2587-4de4-990b-de1c29980fe3" data-lazyload="true"></div>
 
 
 
-        </div>
-        <div className='grid justify-center'>
-        <a className="btn  btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/Kirti_Azad_'> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTwitter /></span>
+          </div>
+          <div className='grid justify-center'>
+            <a className="btn  btn-primary " target='_blank' rel='noreferrer' href='https://twitter.com/Kirti_Azad_'> <span className={`px-1 inline-block text-blue-500 text-xl `}><FaTwitter /></span>
               Follow me on Twitter</a>
 
-        </div>
-      </section>
+          </div>
+        </section>
+      </div>
     </div>
   )
 }
