@@ -19,7 +19,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  /* font-family: 'Designer'; */
+  /* font-family: 'Baroty'; */
+  font-family: 'Gibson';
 }
 
 a {
@@ -40,6 +42,38 @@ a {
   animation: AnimationName 10s ease infinite;
 }
 
+@font-face {
+  font-family: "HeavyInk";
+  src: url('../assets/fonts/DESIGNER.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Baroty";
+  src: url('../assets/fonts/Baroty-PersonalUse.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Baroty";
+  src: url('../assets/fonts/Baroty-BoldPersonalUse.otf');
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Gibson";
+  src: url('../assets/fonts/Gibson-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gibson";
+  src: url('../assets/fonts/gibson-bold.ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+
 @keyframes AnimationName {
   0%,
   100% {
@@ -49,3 +83,12 @@ a {
     background-position: 50% 20%;
   }
 }
+
+/* xxx */
+.heading{
+    font-family: 'HeavyInk';
+}
+.grounded{
+    font-family: 'Gibson';
+}
+/* xxx */

@@ -6,7 +6,7 @@ class MyDocument extends Document {
                 <Head>
                 <link crossOrigin="true" rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin= "true" />
-<link link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet" />
+<link link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet" />
                 </Head>
                 <body>
                     <Main />
