@@ -101,12 +101,20 @@ const Navbar = ({ etheme, handleChange }) => {
           </div> */}
         </div>
         <div className="navbar-center">
-          <a className="font-bold normal-case heading text-4xl">Heavy Ink<span className="grounded mx-2 text-3xl ">.Studio&apos;s</span></a>
+          <Link href="/">
+            <a className="font-bold normal-case heading text-4xl">Heavy Ink<span className="grounded mx-2 text-3xl ">.Studio&apos;s</span></a>
+          </Link>
         </div>
         <div className="navbar-end">
-           <select  value={etheme} onChange={handleChange}
+          <div className='hidden md:visible'>
+            <Link href="/about">
+              <a className="font-bold text-base pr-5">About me</a>
+            </Link>
+
+          </div>
+          <select value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
-            <option disabled selected>Choose Theme?</option>
+            <option disabled selected>Choosfffe Theme?</option>
             {options.map((option) => (
               <>
                 <option value={option.value}>{option.label}</option>
@@ -128,6 +136,9 @@ const Navbar = ({ etheme, handleChange }) => {
     </>
   )
 }
+
+
+
 <div className="navbar bg-base-100">
   <div className="flex-1">
     <Link href="/">
@@ -149,6 +160,7 @@ const Navbar = ({ etheme, handleChange }) => {
     </Link>
   </div>
   <div className="navbar-end">
+
     {/* <select  value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
             <option disabled selected>Choose Theme?</option>

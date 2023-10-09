@@ -4,7 +4,7 @@ import Label from "./landing/Label"
 import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
-  const [theme, settheme] = useState("night")
+  const [theme, settheme] = useState("corporate")
 
   const handleChange = (e) => {
     settheme(e.target.value);
@@ -13,8 +13,10 @@ const Layout = ({ children }) => {
     <div className="`}" data-theme={theme}>
       <Navbar ethmem={theme} handleChange={handleChange} />
 
-      <div>
-        {children}
+      <div className='grid justify-center'>
+        <div className='max-w-7xl bg-base-100  px-5  md:mx-10'>
+          {children}
+        </div>
       </div>
       <Footer />
       {/* <Label/> */}

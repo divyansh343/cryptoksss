@@ -10,7 +10,7 @@
   @apply -rotate-45 -translate-y-1;
   }
   .navbar-active div:first-child div:first-child div:last-child{
-      @apply block lg:flex
+  @apply block lg:flex
   }
 }
 
@@ -19,9 +19,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: 'Designer'; */
-  /* font-family: 'Baroty'; */
-  font-family: 'Gibson';
+  /* font-family: 'HeavyInk'; */
+  font-family: 'MaisonNeueMono';
+  /* font-family: 'Graphik'; */
+  /* font-family: 'Gibson'; */
 }
 
 a {
@@ -49,14 +50,14 @@ a {
   font-style: normal;
 }
 @font-face {
-  font-family: "Baroty";
-  src: url('../assets/fonts/Baroty-PersonalUse.otf');
+  font-family: "MaisonNeueMono";
+  src: url('../assets/fonts/maison/MaisonNeue-Medium.otf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Baroty";
-  src: url('../assets/fonts/Baroty-BoldPersonalUse.otf');
+  font-family: "MaisonNeueMono";
+  src: url('../assets/fonts/maison/MaisonNeue-Bold.otf');
   font-weight: bold;
   font-style: bold;
 }
@@ -69,6 +70,18 @@ a {
 @font-face {
   font-family: "Gibson";
   src: url('../assets/fonts/gibson-bold.ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/GraphikRegular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/graphik/GraphikBold.otf');
   font-weight: bold;
   font-style: bold;
 }
@@ -89,6 +102,9 @@ a {
     font-family: 'HeavyInk';
 }
 .grounded{
-    font-family: 'Gibson';
+    font-family: 'MaisonNeueMono';
+}
+.shady{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 /* xxx */
