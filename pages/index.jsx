@@ -22,9 +22,9 @@ export default function Home() {
         <Inspiration />
         <Portfolio />
         <Reviews />
+        <Payment />
         {/* <Digits />
         <Pricing />
-        <Payment />
         <Testimonials /> */}
         <Faq/>
       </div>

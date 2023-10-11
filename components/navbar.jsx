@@ -114,7 +114,7 @@ const Navbar = ({ etheme, handleChange }) => {
           </div>
           <select value={etheme} onChange={handleChange}
             className="select select-sm select-primary w-full max-w-xs mx-1">
-            <option disabled selected>Choosfffe Theme?</option>
+            <option disabled selected>Choose Theme?</option>
             {options.map((option) => (
               <>
                 <option value={option.value}>{option.label}</option>
